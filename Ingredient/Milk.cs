@@ -1,0 +1,9 @@
+namespace RedTaskCoffeeOOP.Ingredient;
+
+public class Milk: Ingredient
+{
+    public Milk(string type, decimal weight) : base($"Молоко {type}", weight)
+    {
+        
+    }
+}
